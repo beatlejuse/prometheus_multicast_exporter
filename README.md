@@ -17,7 +17,7 @@
         services:
           pytest:
             restart: always
-            image: gitlab.itinvest.ru:5001/adm/multicast-exporter:1.0.0
+            image: registry.local:5001/multicast-exporter:1.0.0
             container_name: pytest
             mem_limit: 100m
             memswap_limit: 100m
